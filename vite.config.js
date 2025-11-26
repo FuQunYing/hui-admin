@@ -18,8 +18,8 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'https://hlgxc.hechuangjia.com/backapi',
-                // target: 'https://xctest.hechuangjia.com/backapi',
+                // target: 'https://hlgxc.hechuangjia.com/backapi',
+                target: 'https://xctest.hechuangjia.com/backapi',
                 // target: 'http://10.16.7.43:8888',
                 changeOrigin: true,
                 rewrite: (path) => path.replace(/^\/api/, '')
