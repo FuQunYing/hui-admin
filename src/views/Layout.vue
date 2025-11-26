@@ -1,7 +1,7 @@
 <template>
   <a-layout>
     <a-layout-sider  width="240">
-      <div class="logo"><img src="../assets/logo.jpg" alt=""></div>
+      <div class="logo"><img src="../assets/logo.png" alt=""></div>
       <a-menu mode="inline" theme="dark"
               :selectedKeys="selectKey"
               :openKeys="openKey"
@@ -208,7 +208,8 @@ body, html {
     height: 64px;
     line-height: 64rpx;
     >img{
-      width: 75%;
+      height: 48px;
+      margin-top: 8px;
     }
   }
   .top-header {
